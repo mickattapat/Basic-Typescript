@@ -1,0 +1,22 @@
+tsc --init : to set tsconfig.json
+tsc -w (tsc --watch) : watch mode
+
+
+1. go to directory
+run 'tsc --init' in terminal
+
+set tsconfig.json
+
+find //"outDir": "" to "outDir": "./dist"
+and add "include": ["src"]
+
+
+2. go to directory src/
+run 'tsc -w' in terminal
+
+
+3. run jsfile in folder /dist
+run 'node jsfile_name.js'
+
+
+******* Example at Type_Norrowing folder ********
